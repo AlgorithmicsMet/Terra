@@ -1,0 +1,254 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Financiero - Diciembre 2024 (Con Gráficos y Sensibilidad ROI)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .center {
+            text-align: center;
+        }
+        .left {
+            text-align: left;
+        }
+        .negative {
+            color: red;
+        }
+        .positive {
+            color: green;
+        }
+        img.chart {
+            max-width: 600px;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Dashboard Financiero - Comercializadora Terranova Woods</h1>
+<p><strong>Fecha de corte:</strong> 31 de diciembre de 2024</p>
+<p><strong>Periodo de operaciones:</strong> Inicio el 1 de julio de 2024</p>
+
+<div class="section">
+    <h2>1. Balanza de Comprobación Consolidada</h2>
+    <p>A continuación, se presenta un resumen de la balanza de comprobación, agrupado por tipo de cuenta:</p>
+    <table>
+        <tr>
+            <th class="left">Clasificación</th>
+            <th class="left">Códigos</th>
+            <th>Saldo Total (MXN)</th>
+        </tr>
+        <tr>
+            <td class="left">Activo</td>
+            <td class="left">101.01.01, 101.01.02, 102.01.01, 105.01.02, 118.01.01, 118.03.01, 119.01.01, 119.03.01, 120.01.01, 121.01.01, 121.02.01, 122.01.01</td>
+            <td>1,928,164.71</td>
+        </tr>
+        <tr>
+            <td class="left">Capital</td>
+            <td class="left">301.01.01</td>
+            <td>2,021,346.12</td>
+        </tr>
+        <tr>
+            <td class="left">Costos</td>
+            <td class="left">501.01.01</td>
+            <td>227,661.10</td>
+        </tr>
+        <tr>
+            <td class="left">Gastos</td>
+            <td class="left">601.84.01, 601.85.01</td>
+            <td>379,742.05</td>
+        </tr>
+        <tr>
+            <td class="left">Ingresos</td>
+            <td class="left">401.01.01</td>
+            <td>512,971.74</td>
+        </tr>
+        <tr>
+            <td class="left">Pasivo</td>
+            <td class="left">201.01.01, 208.01.01, 208.02.01, 208.03.01, 209.01.01, 209.02.01</td>
+            <td>1,250.00</td>
+        </tr>
+    </table>
+    <p><em>Nota:</em> Los registros sin código aparente o que no corresponden a una clasificación estándar (p.ej. 'Otros') se han incluido de forma separada.</p>
+</div>
+
+<div class="section">
+    <h2>2. Estado de Situación Financiera (Balance General)</h2>
+    <table>
+        <tr><th class="left">Cuenta</th><th>Monto (MXN)</th></tr>
+        <tr><td class="left">Activo Total</td><td>1,928,164.71</td></tr>
+        <tr><td class="left">Pasivo Total</td><td>1,250.00</td></tr>
+        <tr><td class="left">Capital Total</td><td>2,021,346.12</td></tr>
+    </table>
+    <p>La ecuación contable <strong>(Activo = Pasivo + Capital)</strong> puede diferir si existen ajustes o resultados de ejercicios anteriores que no se muestran en cuentas separadas.</p>
+</div>
+
+<div class="section">
+    <h2>3. Estado de Resultados</h2>
+    <table>
+        <tr><th class="left">Concepto</th><th>Monto (MXN)</th></tr>
+        <tr><td class="left">Ingresos (Ventas)</td><td>512,971.74</td></tr>
+        <tr><td class="left">Costos de Ventas</td><td>227,661.10</td></tr>
+        <tr><td class="left">Gastos</td><td>379,742.05</td></tr>
+        <tr><td class="left"><strong>Utilidad Bruta</strong></td><td>285,310.64</td></tr>
+        <tr><td class="left"><strong>Utilidad de Operación</strong></td><td>-94,431.41</td></tr>
+        <tr><td class="left"><strong>Utilidad (Pérdida) Neta</strong></td><td>-94,431.41</td></tr>
+    </table>
+    <p>Se asume que no hay un ajuste adicional por impuestos en este reporte.</p>
+
+    <!-- Gráfico de Barras: Ingresos, Costos, Gastos y Utilidad Neta -->
+
+</div>
+
+<div class="section">
+    <h2>4. Indicadores Financieros Clave</h2>
+    <table>
+        <tr><th class="left">Indicador</th><th>Fórmula</th><th>Valor</th></tr>
+        <tr>
+            <td class="left">Razón Circulante</td>
+            <td class="left">Activos / Pasivos</td>
+            <td>1,542.53</td>
+        </tr>
+        <tr>
+            <td class="left">Razón de Endeudamiento</td>
+            <td class="left">Pasivos / Activos</td>
+            <td>0.00</td>
+        </tr>
+        <tr>
+            <td class="left">Margen de Utilidad</td>
+            <td class="left">Utilidad Neta / Ingresos</td>
+            <td>-0.18</td>
+        </tr>
+        <tr>
+            <td class="left">ROE</td>
+            <td class="left">Utilidad Neta / Capital</td>
+            <td>-0.05</td>
+        </tr>
+        <tr>
+            <td class="left">ROA</td>
+            <td class="left">Utilidad Neta / Activos</td>
+            <td>-0.05</td>
+        </tr>
+    </table>
+    <p>Estos indicadores reflejan un resultado negativo (<strong>-94,431.41 MXN</strong>) en el periodo analizado.</p>
+
+    <!-- Gráfico de Barras: Composición del Balance -->
+
+</div>
+
+<div class="section">
+    <h2>5. Tabla de Sensibilidades del Retorno de Inversión (ROI)</h2>
+
+    <p>
+        Para estimar un nivel de ingreso mensual objetivo y analizar el tiempo de recuperación de la inversión, se considera la siguiente estructura de costos y gastos (en base a la información disponible):
+        <ul>
+            <li><strong>Costos de Ventas (variables):</strong> Aproximadamente 44% de los Ingresos.</li>
+            <li><strong>Gastos fijos mensuales:</strong> Aprox. 63,290.34 MXN (promedio semestral).</li>
+            <li><strong>Inversión total a recuperar:</strong> Aproximadamente 2,021,346.12 MXN (monto del Capital social y aportaciones). </li>
+        </ul>
+        <br>
+        En la tabla siguiente, se presenta la utilidad neta mensual estimada para distintos niveles de ingreso mensual
+        y los meses requeridos para recuperar la inversión total (payback simple).
+    </p>
+
+    <table>
+        <tr>
+            <th class="left">Ingreso Mensual (MXN)</th>
+            <th>Costo de Ventas (44%)</th>
+            <th>Gastos Fijos</th>
+            <th>Utilidad Mensual Estimada</th>
+            <th>Meses para Recuperar Inversión</th>
+        </tr>
+        <tr>
+            <td class="left">100,000</td>
+            <td>44,000</td>
+            <td>63,290</td>
+            <td class="negative">-7,290</td>
+            <td class="center">N/A</td>
+        </tr>
+        <tr>
+            <td class="left">300,000</td>
+            <td>132,000</td>
+            <td>63,290</td>
+            <td>104,710</td>
+            <td class="center">19.3</td>
+        </tr>
+        <tr>
+            <td class="left">500,000</td>
+            <td>220,000</td>
+            <td>63,290</td>
+            <td>216,710</td>
+            <td class="center">9.3</td>
+        </tr>
+        <tr>
+            <td class="left">700,000</td>
+            <td>308,000</td>
+            <td>63,290</td>
+            <td>328,710</td>
+            <td class="center">6.2</td>
+        </tr>
+        <tr>
+            <td class="left">1,000,000</td>
+            <td>440,000</td>
+            <td>63,290</td>
+            <td>496,710</td>
+            <td class="center">4.1</td>
+        </tr>
+    </table>
+
+    <p>
+        <em>Notas:</em><br>
+        - Los escenarios asumen que todos los ingresos y costos se comportan de forma lineal al mismo porcentaje.<br>
+        - Los gastos fijos se mantienen constantes en ~63,290 MXN/mes.<br>
+        - <strong>Meses para recuperar la inversión</strong> = (2,021,346.12 MXN) ÷ (Utilidad Mensual Estimada).<br>
+        - Si la utilidad mensual resultara negativa, no habría recuperación en el escenario analizado (<strong>N/A</strong>).
+    </p>
+</div>
+
+<div class="section">
+    <h2>6. Observaciones y Recomendaciones</h2>
+    <ul>
+        <li><strong>Pérdida en el período:</strong> El resultado neto es de -94,431.41 MXN, lo que indica que los gastos superan a los ingresos en este primer semestre de operación.</li>
+        <li><strong>Bajo nivel de endeudamiento:</strong> La razón de endeudamiento (Pasivo/Activo) es ~0.0006, lo que sugiere financiamiento principalmente a través de capital propio.</li>
+        <li><strong>Gastos diferidos:</strong> Se identificó una cuenta de Gastos Diferidos (cuota de franquicia) que deberá ser amortizada en el futuro.</li>
+        <li><strong>Ingreso mensual crítico:</strong> De acuerdo con la tabla de sensibilidad, se requiere generar ingresos mensuales superiores a 300,000 MXN para tener un horizonte de recuperación menor a 20 meses.</li>
+        <li><strong>Seguimiento continuo:</strong> Se recomienda monitorear mensualmente la evolución de ventas, costos y gastos para alcanzar el punto de equilibrio y sostener la rentabilidad.</li>
+    </ul>
+</div>
+
+<footer>
+    &copy; Impuestum Contadores Anzures 2025
+</footer>
+
+</body>
+</html>
